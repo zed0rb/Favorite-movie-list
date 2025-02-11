@@ -4,6 +4,7 @@ import { Home } from "./pages/Home";
 import { Login } from "./pages/Login";
 import { Signup } from "./pages/Signup";
 import { Movies } from "./pages/Movies";
+import { NotFound } from "./pages/NotFound";
 import { AppNavbar } from "./components/Navbar";
 import { useContext } from "react";
 import { QueryClient, QueryClientProvider } from "react-query";
@@ -30,6 +31,7 @@ const App = () => {
                             <Route path="/login" element={<Login />} />
                             <Route path="/signup" element={<Signup />} />
                             <Route path="/movies" element={<PrivateRoute><Movies /></PrivateRoute>} />
+                            <Route path="*" element={<NotFound />} />
                         </Routes>
                     </Container>
                 </BrowserRouter>

@@ -1,6 +1,7 @@
 import { ValidationPipe } from "@nestjs/common";
 import { NestFactory } from "@nestjs/core";
 import { AppModule } from "./app.module";
+import {NotFoundFilter} from "./common/filters/not-found.filter";
 
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
@@ -18,6 +19,8 @@ async function bootstrap() {
         transform: true,
       })
   );
+
+  app.useGlobalFilters(new NotFoundFilter());
 
   await app.listen(8000);
   console.log("🚀 Backend is running on http://localhost:8000");
