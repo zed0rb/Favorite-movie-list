@@ -6,8 +6,25 @@
   <component name="ChangeListManager">
     <list default="true" id="3441a26b-dfeb-4b75-9975-e4e86d2a85ee" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/eslint.config.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/backend/eslint.config.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/prisma/seed.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/prisma/seed.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/auth/auth.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/auth/auth.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/auth/auth.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/auth/auth.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/auth/auth.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/auth/auth.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/auth/dto/auth.dto.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/auth/dto/auth.dto.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/auth/guard/jwt-auth.guard.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/auth/guard/jwt-auth.guard.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/auth/strategy/jwt.strategy.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/auth/strategy/jwt.strategy.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/movie/dto/movie.dto.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/movie/dto/movie.dto.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/movie/movie.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/movie/movie.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/movie/movie.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/movie/movie.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/movie/movie.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/movie/movie.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/prisma/prisma.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/prisma/prisma.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/prisma/prisma.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/prisma/prisma.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/test/app.e2e-spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/test/app.e2e-spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/test/auth/auth.service.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/test/auth/auth.service.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/test/movie/movie.service.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/test/movie/movie.service.spec.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +119,7 @@
       <workItem from="1738658106104" duration="24822000" />
       <workItem from="1738684587990" duration="635000" />
       <workItem from="1738745590793" duration="11891000" />
-      <workItem from="1739268208052" duration="1356000" />
+      <workItem from="1739268208052" duration="2572000" />
     </task>
     <servers />
   </component>
